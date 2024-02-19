@@ -39,6 +39,7 @@ Here is an example directory structure that hbmenu will have no trouble recogniz
     - blargSNES.3dsx
     - gameyob.3dsx
     - 3dnes.3dsx
+    - ftpd.smdh
 
 If hbmenu does not find an icon file (either embedded in the executable or provided separately) to associate with a given 3dsx, it will display a default icon and the path to the executable as a fallback.
 
