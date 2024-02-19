@@ -81,8 +81,8 @@ static int menuEntryCmp(const void *p1, const void *p2)
 		return lhs->isStarred ? -1 : 1;
 	if(lhs->type == rhs->type)
 		return strcasecmp(lhs->name, rhs->name);
-	if(lhs->type == ENTRY_TYPE_FOLDER)
-		return -1;
+	if(lhs->type != ENTRY_TYPE_FOLDER)
+	return -1;
 	return 1;
 }
 
