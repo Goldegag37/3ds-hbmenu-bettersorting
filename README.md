@@ -1,5 +1,7 @@
 # The Homebrew Launcher
 
+all that was changed in this fork is that 3dsx and xml files take priority over folders
+
 #### Presentation
 
 The Homebrew Launcher (hbmenu for short) is the main menu used to list and launch homebrew applications. It is essentially a graphical shell around an existing homebrew loading mechanism. The following entrypoints are supported:
